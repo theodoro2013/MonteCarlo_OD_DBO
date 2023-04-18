@@ -11,7 +11,7 @@ for c in range (0,2):
         BW= w+i
 
 
-print (BW[])
+print (BW[0])
 
 
 

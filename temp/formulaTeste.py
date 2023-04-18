@@ -1,0 +1,19 @@
+BY=0.60
+BZ=0.88
+CA=(BY+BZ)
+C=0.264
+CV=0
+M0=0.0034
+CW0=7
+S=0
+T=0
+U=10.9
+V=0
+H=0
+I=0
+J=0.0033830
+K=0
+W=(M0*CW0+H*S+I*T+J*U+K*V)/(M0+H+I+J+K)
+CU=(-CA*W*C)
+CW=(W+CU+CV)    
+print (CW)
