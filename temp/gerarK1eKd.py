@@ -1,12 +1,8 @@
 import random
-import matplotlib.pyplot as plt
-import numpy as np
-import time
+
 k1v = []
 kdv = []
 k2tv = []
-
-
 totalsimulacao=5
 
 for c in range(0,totalsimulacao):
@@ -17,5 +13,4 @@ for c in range(0,totalsimulacao):
     kdv.append(k1)
     k2tv.append(k1)
 
- 
 print(k1v,kdv,k2tv)
